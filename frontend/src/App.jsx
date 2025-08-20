@@ -1,7 +1,7 @@
 // frontend/src/App.jsx
 import React, { useState, useEffect, useCallback } from 'react';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = 'https://happy-face-ads-api.onrender.com/api';
 
 // A reusable card component
 const Card = ({ title, children }) => (
